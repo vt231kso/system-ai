@@ -1,0 +1,8 @@
+﻿Експеримент,Модель,Контекст,val_loss,Accuracy,"Час інференсу, с",Речень за секунду,"Параметрів, млн",Поріг
+MiniGPT,news_context64,64.0,5.3765,,,,,
+MiniGPT,news_context128,128.0,5.2852,,,,,
+Порівняння моделей,cardiffnlp/twitter-xlm-roberta-base-sentiment,,,1.0,1.206,16.59,278.05,
+Порівняння моделей,lxyuan/distilbert-base-multilingual-cased-sentiments-student,,,0.75,0.075,266.27,135.33,
+Експерименти з порогом,cardiffnlp/twitter-xlm-roberta-base-sentiment,,,0.95,,,,0.3
+Експерименти з порогом,cardiffnlp/twitter-xlm-roberta-base-sentiment,,,1.0,,,,0.5
+Експерименти з порогом,cardiffnlp/twitter-xlm-roberta-base-sentiment,,,1.0,,,,0.7
